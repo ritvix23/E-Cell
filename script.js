@@ -1,9 +1,16 @@
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("test").style.top = "0";
+  if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
+    document.getElementById("cid").style.top = "-65%";
+    document.getElementById('slider').style.height='15%'
+    
+
+
   } else {
-    document.getElementById("test").style.top = "-100px";
+    document.getElementById("cid").style.top='0px';
+   document.getElementById('slider').style.height='30%'
+
+
   }
 } 
