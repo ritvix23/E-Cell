@@ -1,11 +1,11 @@
 html ,  body 
 {
-	background-color: black;
+	background-color: red;
 	margin:0;
 	height:100%;
 	color:white;
 }
-.container
+.cont
 {
 	position:absolute;
 
@@ -48,4 +48,13 @@ html ,  body
 	z-index:1;
 	height:100px;
 
+}
+.bg-light
+{
+	background-color:transparent !important;
+}
+.navbar a
+{
+	color:transparent !important;
+	transition:all 0.5s ease-out;
 }
