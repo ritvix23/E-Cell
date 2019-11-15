@@ -3,7 +3,7 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
     document.getElementById("cid").style.top = "-70%";
-    document.getElementById('slider').style.height='15%';
+    document.getElementById('slider').style.height='10%';
     document.getElementsByclassName('navbar a').style.color='black';
     
 
