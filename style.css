@@ -1,4 +1,12 @@
 
+html ,  body 
+{
+	background-color: black;
+	margin:0;
+	height:100%;
+	color:white;
+}
+
 .cont
 {
 	position:absolute;
@@ -28,17 +36,16 @@
 {
 	background-color: yellow;
 	position: sticky;
-	/*top:1000px;*/
 	top:0px;
 	height:30%;
 	transition:all 0.5s ease-out;
 	
-	top:0px;
+
 	
 }
 #back
 {
-		background-color: blue;
+	background-color: blue;
 	z-index:1;
 	height:100px;
 
@@ -47,10 +54,3 @@
 {
 	background-color:transparent !important;
 }
-.navbar a
-{
-	color:transparent !important;
-	transition:all 0.5s ease-out;
-}
-
-
