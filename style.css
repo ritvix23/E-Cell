@@ -3,19 +3,19 @@ html ,  body
 {
 	background-color: black;
 	margin:0;
-	height:100%;
+	height:all;
 	color:white;
 }
 
-.cont
+#cid
 {
-	position:absolute;
-
-	top:0px;
+	position: fixed;
+	top:0vh;
 	
 	
-	transition: all 0.5s ease-out;
-	height:100%;
+	
+	transition: top 0.5s ease-out;
+	height:100vh;
 	width:100% ;
 	z-index:1;
 }
@@ -35,8 +35,7 @@ html ,  body
 #slider
 {
 	background-color: yellow;
-	position: sticky;
-	top:0px;
+	
 	height:30%;
 	transition:all 0.5s ease-out;
 	
