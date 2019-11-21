@@ -7,6 +7,20 @@ html ,  body
 	color:white;
 }
 
+.mynavbar a{
+ position: relative;
+ font-size: 125%;
+  padding: 15px;
+  padding-right: 30px;
+  color: #e2cb10 !important;
+  text-transform: uppercase;
+    -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+
+}
+
+
+
 #cid
 {
 	position: fixed;
@@ -21,7 +35,7 @@ html ,  body
 }
 #content
 {
-	background-image: url("http://s1.picswalls.com/wallpapers/2015/09/20/2015-wallpaper_111525594_269.jpg"); 
+	
     /*min-height: 500px; */
     background-attachment: fixed; 
     background-position: center; 
@@ -34,13 +48,19 @@ html ,  body
 }
 #slider
 {
-	background-color: yellow;
+	background-color: black;
 	
 	height:30%;
 	transition:all 0.5s ease-out;
 	
 
 	
+}
+#letsgo{
+	margin-top: 5%;
+text-align: center;
+font-size: 32px;
+
 }
 #back
 {
